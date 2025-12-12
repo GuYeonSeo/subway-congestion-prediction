@@ -1,6 +1,12 @@
-전처리된 대용량 데이터(`processed.csv`)는 GitHub 파일 크기 제한으로 인해 저장소에서 제외하였으며 전처리 스크립트를 통해 재현 가능하도록 구성하였다.
-
 실행 방법
 
-git clone https://github.com/GuYeonSeo/subway-congestion-prediction.git
-cd subway-congestion-prediction
+아래 내용을 순서대로 터미널에 입력
+
+1. 가상환경 생성
+   python -m venv .venv
+2. 가상환경 활성화
+   .venv\Scripts\activate
+3. 필요한 라이브러리 설치
+   pip install -r requirements.txt
+4. Streamlit 애플리케이션 실행
+   streamlit run app.py
