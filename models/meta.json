@@ -1,0 +1,19 @@
+{
+  "rows_before_long": 3117648,
+  "rows_after_dropna": 3117648,
+  "rows_final": 3117648,
+  "thresholds": {
+    "low": 800,
+    "high": 2000
+  },
+  "caps": {
+    "ride_cap": 145303.0,
+    "alight_cap": 148406.3550000009
+  },
+  "label_meaning": {
+    "0": "여유",
+    "1": "보통",
+    "2": "혼잡"
+  },
+  "note": "wide(시간대별 컬럼) → long(행=시간대) 변환 후 학습 데이터 생성"
+}
